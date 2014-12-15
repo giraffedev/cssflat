@@ -147,3 +147,10 @@ p, pre {
 	text-shadow: 1px 1px 1px rgba(110, 110, 110, 0.42);
 }
 
+/*Forms*/
+.form-flat {
+	outline: none;
+	border: 1px solid #CFCFCF;
+	padding: 10px 0 10px 10px;
+	color: #747474;
+}
