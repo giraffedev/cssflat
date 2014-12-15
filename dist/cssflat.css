@@ -1,5 +1,11 @@
-/* CSS Flat version 0.0.1 */
+/* CSS Flat version 0.0.2 */
 /* Flat Buttons */
+
+.container {
+	width: 1040px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
 
 .btn {
   
