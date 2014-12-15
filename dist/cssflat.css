@@ -28,12 +28,15 @@ body {
 	margin: 0 auto;
 }
 
+/* Buttons */
+
 a.btn, .btn {
 	color: #fff;
 	text-decoration: none;
-	padding: 5px 20px;
+	border: none;
 }
 
+/* Buttons Colors */
 .btn-default {
 	background: #ed59bb;
 }
@@ -52,4 +55,20 @@ a.btn, .btn {
 
 .btn-yellow {
 	background: #D9fa51;
+}
+
+/* Buttons Sizes */
+.btn-sm {
+	padding: 5px 20px;
+	font-size: 12px;
+}
+
+.btn-md {
+	padding: 8px 30px;
+	font-size: 16px;
+}
+
+.btn-bi {
+	padding: 10px 40px;
+	font-size: 26px;
 }
