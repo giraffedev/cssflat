@@ -15,8 +15,8 @@ red: #e94e4e
 blue: #6da6d0;
 green: #4ff486;
 yellow: #D9fa51;
+grey: #c0c0c0;
 */
-
 
 
 body {
@@ -35,9 +35,6 @@ a.btn, .btn {
 	color: #fff;
 	text-decoration: none;
 	border: none;
-	-webkit-transition: ease-in 0.4s;
-	-o-transition: ease-in 0.4s;
-	transition: ease-in 0.4s;
 }
 
 /* Buttons Colors */
@@ -96,4 +93,40 @@ a.btn, .btn {
 
 .btn-yellow:hover, .btn-yellow:active, .btn-yellow:visited{
 	background: #E9E512;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+	margin: 10px 0;
+	color: #797979;
+}
+
+h6 {
+	font-size: 16px;
+}
+
+h5 {
+	font-size: 20px;
+}
+
+h4 {
+	font-size: 24px;
+}
+
+h3 {
+	font-size: 28px;
+}
+
+h2 {
+	font-size: 32px;
+}
+
+h1 {
+	font-size: 36px;
+}
+
+/* Paragraph */
+
+p {
+	color: #595454;
 }
