@@ -35,6 +35,9 @@ a.btn, .btn {
 	color: #fff;
 	text-decoration: none;
 	border: none;
+	-webkit-transition: ease-in 0.4s;
+	-o-transition: ease-in 0.4s;
+	transition: ease-in 0.4s;
 }
 
 /* Buttons Colors */
@@ -72,4 +75,25 @@ a.btn, .btn {
 .btn-bi {
 	padding: 10px 40px;
 	font-size: 26px;
+}
+
+/* Buttons Hovers */
+.btn-red:hover, .btn-red:active, .btn-red:visited{
+	background: #FA2D2D;
+}
+
+.btn-default:hover, .btn-default:active, .btn-default:visited{
+	background: #FF42FA;
+}
+
+.btn-blue:hover, .btn-blue:active, .btn-blue:visited{
+	background: #3595FB;
+}
+
+.btn-green:hover, .btn-green:active, .btn-green:visited{
+	background: #31FF28;
+}
+
+.btn-yellow:hover, .btn-yellow:active, .btn-yellow:visited{
+	background: #E9E512;
 }
