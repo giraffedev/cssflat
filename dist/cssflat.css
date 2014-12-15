@@ -30,7 +30,6 @@ body {
 }
 
 /* Buttons */
-
 a.btn, .btn {
 	color: #fff;
 	text-decoration: none;
@@ -126,7 +125,19 @@ h1 {
 }
 
 /* Paragraph */
-
-p {
+p, pre {
 	color: #595454;
+}
+
+/* Misc */
+.float-left {
+	float: left;
+}
+
+.float-right {
+	float: right;
+}
+
+.text-center {
+	text-align: center;
 }
