@@ -1,15 +1,22 @@
 @charset "UTF-8";
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,600,400);
 
+
 /* 
-CSS Flat version 0.0.2
+CSS Flat version 0.0.1 
 
 @colors
-red: #E94E4E
-blue: #6DA6D0;
-green: #4FF486;
-yellow: #D9FA51;
+
+white: #fff;
+
+default: #ed59bb;
+red: #e94e4e
+blue: #6da6d0;
+green: #4ff486;
+yellow: #D9fa51;
 */
+
+
 
 body {
 	font: 12px 'Open Sans', sans-serif;
@@ -21,6 +28,28 @@ body {
 	margin: 0 auto;
 }
 
-.btn {
+a.btn, .btn {
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 20px;
+}
 
+.btn-default {
+	background: #ed59bb;
+}
+
+.btn-red {
+	background: #e94e4e;
+}
+
+.btn-blue {
+	background: #6da6d0;
+}
+
+.btn-green {
+	background: #4ff486;
+}
+
+.btn-yellow {
+	background: #D9fa51;
 }
