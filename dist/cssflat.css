@@ -1,5 +1,19 @@
-/* CSS Flat version 0.0.2 */
-/* Flat Buttons */
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,600,400);
+
+/* 
+CSS Flat version 0.0.2
+
+@colors
+red: #E94E4E
+blue: #6DA6D0;
+green: #4FF486;
+yellow: #D9FA51;
+*/
+
+body {
+	font: 12px 'Open Sans', sans-serif;
+}
 
 .container {
 	width: 1040px;
@@ -8,5 +22,5 @@
 }
 
 .btn {
-  
+
 }
