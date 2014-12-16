@@ -4,7 +4,171 @@
 
 
 /* 
-CSS Flat version 0.0.1 
+CSS Flat version 0.0.1 @charset "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,600,400);
+@import url(//normalize-css.googlecode.com/svn/trunk/normalize.css);
+
+
+/* 
+CSS Flat version 0.0.11 
+
+@colors
+
+white: #fff;
+
+default: #ed59bb;
+red: #e94e4e
+blue: #6da6d0;
+green: #4ff486;
+yellow: #D9fa51;
+grey: #c0c0c0;
+*/
+
+
+body {
+	font: 12px 'Open Sans', sans-serif;
+}
+
+.container {
+	width: 1040px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+/* Buttons */
+a.btn, .btn {
+	color: #fff;
+	text-decoration: none;
+	border: none;
+	cursor: pointer;
+}
+
+/* Buttons Colors */
+.btn-default {
+	background: #ed59bb;
+}
+
+.btn-red {
+	background: #e94e4e;
+}
+
+.btn-blue {
+	background: #6da6d0;
+}
+
+.btn-green {
+	background: #4ff486;
+}
+
+.btn-yellow {
+	background: #D9fa51;
+}
+
+/* Buttons Sizes */
+.btn-sm {
+	padding: 5px 20px;
+	font-size: 12px;
+}
+
+.btn-md {
+	padding: 8px 30px;
+	font-size: 16px;
+}
+
+.btn-bi {
+	padding: 10px 40px;
+	font-size: 26px;
+}
+
+/* Buttons Hovers */
+.btn-red:hover, .btn-red:active, .btn-red:visited{
+	background: #FA2D2D;
+}
+
+.btn-default:hover, .btn-default:active, .btn-default:visited{
+	background: #FF42FA;
+}
+
+.btn-blue:hover, .btn-blue:active, .btn-blue:visited{
+	background: #3595FB;
+}
+
+.btn-green:hover, .btn-green:active, .btn-green:visited{
+	background: #31FF28;
+}
+
+.btn-yellow:hover, .btn-yellow:active, .btn-yellow:visited{
+	background: #E9E512;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+	margin: 10px 0;
+	color: #797979;
+}
+
+h6 {
+	font-size: 16px;
+}
+
+h5 {
+	font-size: 20px;
+}
+
+h4 {
+	font-size: 24px;
+}
+
+h3 {
+	font-size: 28px;
+}
+
+h2 {
+	font-size: 32px;
+}
+
+h1 {
+	font-size: 36px;
+}
+
+/* Paragraph */
+p, pre {
+	color: #595454;
+}
+
+/* Misc */
+.clearfix:after {
+   content: " ";
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+.float-left {
+	float: left;
+}
+
+.float-right {
+	float: right;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-shadow {
+	text-shadow: 1px 1px 1px rgba(110, 110, 110, 0.42);
+}
+
+/*Forms*/
+.form-flat {
+	outline: none;
+	border: 1px solid #CFCFCF;
+	padding: 10px 0 10px 10px;
+	color: #747474;
+	margin-bottom: 15px;
+}
 
 @colors
 
